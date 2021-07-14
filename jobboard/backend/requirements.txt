@@ -1,9 +1,15 @@
 fastapi
 uvicorn
 
+#pydantic 
+pydantic[email]
+
 # for database
 sqlalchemy
 psycopg2
 
 # for env variables
 python-dotenv
+
+# hashing
+passlib[bcrypt]
